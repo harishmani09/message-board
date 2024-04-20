@@ -1,0 +1,10 @@
+<h1>Message Board Page</h1>
+
+<ul>
+    {% for post in object_list  %}
+    
+        <li>{{post.text}}</li>
+    
+    {% endfor %}
+
+</ul>
